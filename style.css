@@ -1,6 +1,4 @@
-*{
-    background-color: rgb(255, 255, 255);
-}
+
 body{
     margin: 0;
     padding: 0;
@@ -14,7 +12,7 @@ a{
 }
 header{
     width: 100%;
-    height: 30px;
+    height: 60px;
 }
 header nav{
     display: flex;
@@ -29,7 +27,7 @@ header nav{
 }
 .nav-right-section a{
     margin-right: 25px;
-    color: #151313de;
+    color: #000000DE;
 }
 ul{
     list-style: none;
@@ -52,7 +50,7 @@ main{
 .main-logo{
     width: 530px;
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 .main-input{
     width: 530px;
@@ -69,7 +67,7 @@ main{
     align-items: center;
 }
 .main-input-container input{
-    border:none;
+    border: none;
     width: 530px;
     height: 40px;
     outline: none;
@@ -134,8 +132,8 @@ footer{
     grid-template-columns: 1fr 1fr;
     align-items: center;
     border-color: 1px solid #e4e4e4;
-   /* bottom: 2px;
-    padding: 10px;*/
+    bottom: 2px;
+    padding: 10px;
 
 }
 .footer-left{
